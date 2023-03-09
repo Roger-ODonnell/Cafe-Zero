@@ -21,7 +21,7 @@ body {
   padding: 1em 1em;
   border: solid white;
 }
-.heading button a{
+.heading button a {
   color: white;
   text-decoration: none;
 }
@@ -50,11 +50,37 @@ body {
   font-family: "Sono", sans-serif;
   text-shadow: 2px 2px black;
 }
-.section1{
+.section1 {
   display: flex;
   flex-direction: column;
-  flex-direction: column;
   flex-wrap: wrap;
+}
+@media screen and (max-width: 600px) {
+  .heading {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: left;
+    margin: 10em 5em;
+  }
+}
+@media screen and (max-width: 500px) {
+  .heading {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: left;
+    margin: 10em 3em;
+  }
+}
+@media screen and (max-width: 400px) {
+  .heading {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: left;
+    margin: 10em 0em;
+  }
 }
 
 .nav-bar {
@@ -82,15 +108,15 @@ body {
   border-radius: 5em;
   transition: 1s;
 }
-@media screen and (max-width: 555px){
+@media screen and (max-width: 560px) {
   .nav-bar {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: left;
     text-align: left;
   }
   .nav-bar ul {
-    padding: .5em .5em;
+    padding: 0.5em 0.5em;
   }
   .nav-bar ul li {
     display: block;
@@ -103,7 +129,7 @@ body {
   }
 }
 
-section{
+section {
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -113,7 +139,7 @@ section{
   width: 100%;
   margin-left: -3.5em;
 }
-section h2{
+section h2 {
   display: inline-flex;
   justify-content: center;
   text-align: center;
@@ -121,9 +147,9 @@ section h2{
   max-width: 300px;
   color: white;
   padding: 1em 1em;
-  border:  solid white;
+  border: solid white;
 }
-section p{
- color: white;
- font-family: "Sono", sans-serif;
+section p {
+  color: white;
+  font-family: "Sono", sans-serif;
 }
