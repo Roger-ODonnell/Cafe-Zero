@@ -206,3 +206,26 @@ body {
   }
 }
 
+.menu{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #f26419;
+  width: 100%;
+}
+.menu ul{
+}
+.menu ul li{
+  list-style-type: none;
+}
+.menu h2{
+  color: white;
+  font-family: "Sono", sans-serif;
+  text-align: center;
+}
+.menu h3{
+  color: white;
+  font-family: "Sono", sans-serif;
+  text-align: center;
+}
